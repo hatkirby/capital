@@ -267,7 +267,7 @@ std::string capital::generateTweetText(verbly::word pictured) const
     case 1: action = { "This", nounTok, "Is Not Worth", money }; break;
     case 2: action = { "We Can't Get Rid Of This", money, nounTok }; break;
     case 3: action = { "Millenials Will No Longer Spend", money, "For",
-      verbly::token::definiteArticle(nounTok) }; break;
+      verbly::token::indefiniteArticle(nounTok) }; break;
     case 4: action = { "Why Does This", money, nounTok, "Exist?" }; break;
     case 5: action = { "Someone Spent", money, "Making This", nounTok,
       "That No One Will Buy" }; break;
